@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
-@EnableJpaAuditing
+@EnableJpaAuditing // 수정, 삭제 시간을 자동으로 기록하기 위해 필요한 어노테이션
 public class App10Application {
 
 	public static void main(String[] args) {
